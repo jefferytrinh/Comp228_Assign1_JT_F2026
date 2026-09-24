@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class RandomIntegers
 {
 	SecureRandom randomNumbers = new SecureRandom();
-	public int RandInt()
+	public int RandInt() // is int instead of void because void can not return value (as needed in "return sum;")
 	{
 		ArrayList<Integer> list = new ArrayList<>();
 		int sum = 0; // create sum to calculate total of dice
